@@ -14,4 +14,4 @@ jobs:
           python-version: "3.12"
       - name: correr la suite
         run: |
-          python -m pytest tests/ -q
+          python -m pytest tests/ herramientas/ -q
